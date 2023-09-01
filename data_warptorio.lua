@@ -348,6 +348,16 @@ ExtendTech(t,{name="warptorio-bot-speed-2",unit={count=180,time=30},prerequisite
 ExtendTech(t,{name="warptorio-bot-speed-3",unit={count=250,time=30},prerequisites={"warptorio-bot-speed-2","chemical-science-pack"}}, {red=3,green=2,blue=1} )
 ExtendTech(t,{name="warptorio-bot-speed-4",unit={count=300,time=30},prerequisites={"warptorio-bot-speed-3","production-science-pack"}}, {red=4,green=3,blue=2,purple=1} )
 ExtendTech(t,{name="warptorio-bot-speed-5",unit={count=350,time=30},prerequisites={"warptorio-bot-speed-4","utility-science-pack"}}, {red=5,green=4,blue=3,purple=2,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-speed-6",unit={count=350,time=30},prerequisites={"warptorio-bot-speed-5","utility-science-pack"}}, {red=5,green=4,blue=3,purple=2,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-speed-7",unit={count=350,time=30},prerequisites={"warptorio-bot-speed-6","utility-science-pack"}}, {red=5,green=4,blue=3,purple=2,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-speed-8",unit={count=350,time=30},prerequisites={"warptorio-bot-speed-7","utility-science-pack"}}, {red=5,green=4,blue=3,purple=2,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-speed-9",unit={count=350,time=30},prerequisites={"warptorio-bot-speed-8","utility-science-pack"}}, {red=5,green=4,blue=3,purple=2,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-speed-10",unit={count=350,time=30},prerequisites={"warptorio-bot-speed-9","utility-science-pack"}}, {red=5,green=4,blue=3,purple=2,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-speed-11",unit={count=350,time=30},prerequisites={"warptorio-bot-speed-10","utility-science-pack"}}, {red=5,green=4,blue=3,purple=2,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-speed-12",unit={count=350,time=30},prerequisites={"warptorio-bot-speed-11","utility-science-pack"}}, {red=5,green=4,blue=3,purple=2,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-speed-13",unit={count=350,time=30},prerequisites={"warptorio-bot-speed-12","utility-science-pack"}}, {red=5,green=4,blue=3,purple=2,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-speed-14",unit={count=350,time=30},prerequisites={"warptorio-bot-speed-13","utility-science-pack"}}, {red=5,green=4,blue=3,purple=2,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-speed-15",unit={count=350,time=30},prerequisites={"warptorio-bot-speed-14","utility-science-pack"}}, {red=5,green=4,blue=3,purple=2,yellow=1} )
 
 local t={type="technology",upgrade=true,icon_size=128,icons={ {icon="__base__/graphics/technology/worker-robots-storage.png",tint={r=0.3,g=0.3,b=1,a=1},icon_mipmaps=4,icon_size=256,} },
 	effects={ {type="worker-robot-storage",modifier=1}, } }
@@ -356,6 +366,16 @@ ExtendTech(t,{name="warptorio-bot-cap-2",unit={count=180,time=30},prerequisites=
 ExtendTech(t,{name="warptorio-bot-cap-3",unit={count=250,time=30},prerequisites={"warptorio-bot-cap-2","chemical-science-pack"}}, {red=2,green=2,blue=1} )
 ExtendTech(t,{name="warptorio-bot-cap-4",unit={count=300,time=30},prerequisites={"warptorio-bot-cap-3","production-science-pack"}}, {red=3,green=3,blue=1,purple=1} )
 ExtendTech(t,{name="warptorio-bot-cap-5",unit={count=350,time=30},prerequisites={"warptorio-bot-cap-4","utility-science-pack"}}, {red=3,green=3,blue=2,purple=1,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-cap-6",unit={count=350,time=30},prerequisites={"warptorio-bot-cap-5","utility-science-pack"}}, {red=3,green=3,blue=2,purple=1,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-cap-7",unit={count=350,time=30},prerequisites={"warptorio-bot-cap-6","utility-science-pack"}}, {red=3,green=3,blue=2,purple=1,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-cap-8",unit={count=350,time=30},prerequisites={"warptorio-bot-cap-7","utility-science-pack"}}, {red=3,green=3,blue=2,purple=1,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-cap-9",unit={count=350,time=30},prerequisites={"warptorio-bot-cap-8","utility-science-pack"}}, {red=3,green=3,blue=2,purple=1,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-cap-10",unit={count=350,time=30},prerequisites={"warptorio-bot-cap-9","utility-science-pack"}}, {red=3,green=3,blue=2,purple=1,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-cap-11",unit={count=350,time=30},prerequisites={"warptorio-bot-cap-10","utility-science-pack"}}, {red=3,green=3,blue=2,purple=1,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-cap-12",unit={count=350,time=30},prerequisites={"warptorio-bot-cap-11","utility-science-pack"}}, {red=3,green=3,blue=2,purple=1,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-cap-13",unit={count=350,time=30},prerequisites={"warptorio-bot-cap-12","utility-science-pack"}}, {red=3,green=3,blue=2,purple=1,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-cap-14",unit={count=350,time=30},prerequisites={"warptorio-bot-cap-13","utility-science-pack"}}, {red=3,green=3,blue=2,purple=1,yellow=1} )
+ExtendTech(t,{name="warptorio-bot-cap-15",unit={count=350,time=30},prerequisites={"warptorio-bot-cap-14","utility-science-pack"}}, {red=3,green=3,blue=2,purple=1,yellow=1} )
 
 
 local t={type="technology",upgrade=true,icon_size=128,icons={ {icon="__base__/graphics/technology/physical-projectile-damage-1.png",tint={r=0.3,g=0.3,b=1,a=1},icon_mipmaps=4,icon_size=256,} },
@@ -643,7 +663,7 @@ local t={type="technology",upgrade=false,icon_size=128,icons={
 	{icon="__warptorio2__/graphics/technology/earth.png",tint={r=0.8,g=0.8,b=1,a=1},scale=1,shift={32,32},priority="high",}
 	}, effects={ {recipe="warptorio-warploader",type="unlock-recipe"} },
 }
-ExtendTech(t,{name="warptorio-warploader", unit={count=10000,time=10}, prerequisites={"warptorio-armor","warptorio-warpmodule","warptorio-warpnuke","warptorio-warpport"}}, {red=1,green=1,blue=1,purple=1,yellow=1,white=1} )
+ExtendTech(t,{name="warptorio-warploader", unit={count=1000,time=10}, prerequisites={"warptorio-armor","warptorio-warpmodule","warptorio-warpnuke","warptorio-warpport"}}, {red=1,green=1,blue=1,purple=1,yellow=1,white=1} )
 
 
 
@@ -705,7 +725,7 @@ local t=ExtendDataCopy("beacon","beacon",{name="warptorio-beacon-1",supply_area_
 	allowed_effects={"consumption","speed","pollution","productivity"},
 	distribution_effectivity=1,
 },true)
-for i=2,10,1 do local xt=table.deepcopy(t) xt.name="warptorio-beacon-"..i xt.supply_area_distance=math.min(16+8*i,64) xt.module_specification.module_slots=i data:extend{xt} end
+for i=2,10,1 do local xt=table.deepcopy(t) xt.name="warptorio-beacon-"..i xt.supply_area_distance=math.min(16+8*i,64) xt.module_specification.module_slots=i*3 data:extend{xt} end
 
 
 
